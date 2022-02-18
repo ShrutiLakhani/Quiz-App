@@ -3,8 +3,7 @@
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    /* background-image: linear-gradient(#ee9ca7 , #ffdde1); */
-    background-image: linear-gradient(#ddd6f3 , #faaca8);
+    background-image: var(--background-color-quiz);
 }
 
 .ruleinfo-page{
@@ -45,7 +44,6 @@
 
 }
 .rule-btn-container .primary-button-solid{
-    /* padding: .4rem .6rem; */
     border: 1px solid black;
     text-decoration: none;
     font-size: 1.2rem;
