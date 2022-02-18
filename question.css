@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(#ddd6f3 , #faaca8);
+    background-image: var(--background-color-quiz);
 
 }
 .ques-title
