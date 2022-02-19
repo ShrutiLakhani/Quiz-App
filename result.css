@@ -43,6 +43,7 @@
     padding: .8rem;
     margin-bottom: .5rem;
     font-size: .8rem;
+    cursor: pointer;
 }
 .quiz-question input{
     display: none;
