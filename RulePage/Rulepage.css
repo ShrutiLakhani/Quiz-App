@@ -1,0 +1,57 @@
+.rulepage-container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--background-color-quiz);
+}
+
+.ruleinfo-page{
+    max-width: 45rem;
+    background-color: var(--main-background-color);
+    border: 1px solid var(--component-black-color);
+    border-radius: 5px;
+    margin: 2rem;
+    position: relative;
+}
+.rule-title
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--component-black-color);
+}
+
+.rule-list
+{
+    padding: 1rem 2rem;
+}
+.rule-list .rule-info
+{
+    margin: 5px;
+    font-size: 1.2rem;
+}
+.rule-btn-container
+{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    gap: .5rem;
+
+}
+.rule-btn-container .primary-button-solid{
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.rulepage-container .closebtn {
+    font-size: 2rem;
+    position: absolute;
+    left: 93%;
+    top:0%;
+    color: var(--tertiary-color);
+  }
