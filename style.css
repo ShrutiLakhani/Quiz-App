@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+:root{
+    --button-color: rgb(216, 112, 147);
+}
+.desktop-container{
+  height: 100vh;  
+}
+
+.btn-quiz{
+    text-decoration: none;
+    position: absolute;
+    top:15%;
+    right:38%;
+    padding: .6rem .8rem;
+    text-align:center;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    color: var(--component-white-color);
+    font-size: 10px;
+    border: 1px solid;
+}
+
+.btn-quiz a{
+    text-decoration: none;
+}
+
+.quiz-background-img{
+    position: relative;
+    width: 100%;
+    height:auto;
+    opacity: .7;
+}
+
+@media screen and (min-width:375px) and (max-width:650px)
+{
+    .btn-quiz
+    {
+        right:40%;
+        padding: .7rem 1rem;
+    }
+}
+
+@media screen and (min-width:700px)
+{
+    .btn-quiz
+    {
+        right:45%;
+        padding: .7rem 1rem;
+    }
+}
+
+@media screen and (min-width:1200px)
+{
+    .btn-quiz
+    {
+        top: 60%;
+        left:40%;
+        width:15%;
+        background-color: palevioletred;
+        border: 1px solid;
+        font-size: 1.5rem;
+        font-weight: 500;
+        white-space: nowrap;
+        text-align: center;
+    }
+}
