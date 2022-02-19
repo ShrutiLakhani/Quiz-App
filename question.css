@@ -34,10 +34,10 @@
     display: flex;
     width: 7rem;
     height: 3rem;
-    background-color: var(--tertiary-card-color);
+    background-color: var(--divider-bg-color);
     align-items: center;
     justify-content: space-between;
-    padding: 2px 3px;
+    padding: 3px 8px;
     border-radius: 3px;
 }
 .timer-title
@@ -61,6 +61,7 @@
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: .5rem;
+    cursor: pointer;
 }
 .quiz-question input{
     display: none;
@@ -69,13 +70,18 @@
     background: var(--tertiary-card-color);
     color: white;
 }
-.ques-btn-container{
+.ques-btn-container{ 
     display: flex;
     justify-content: flex-end; 
     margin-right: 2rem;
 } 
 
-.primary-button-solid{
+.primary-button-solid-quiz{
   text-decoration: none;
+  padding: .6rem 1rem;
+  background-color: var(--component-black-color);
+  color: var(--component-white-color);
+  border-radius: 5px;
+
 }
 
